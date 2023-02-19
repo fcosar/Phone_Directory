@@ -1,0 +1,41 @@
+Phone App Uygulaması
+
+       ANASAYFA
+*-Fake api için json dosyası oluşturulacak
+*-Api ile iletişim için axios yüklenecek
+*-Bootsrap oluşturulacak
+*-Sayfa yapısında componentler ve react-rotuer-dom kullanılacak
+*-Anasayfada isimler ve numaralar listelenecek
+*-Kişi arama(search) butonu kanulacak
+*-isimlerin yanında arama ve mesaj iconu oluşturulacak 
+*-iconlar için fontawesome eklenecek
+*-Her ismin yanında edit butonu olacak 
+
+       KİŞİ EKLEME
+*-Yeni isim ekleme butonu(+) konulacak 
+*-Kişi ekle(+) butonu ile yeni sayfa oluşturulacak
+*-Yeni sayfada kişi ekleme için form oluşturulup altta kaydet butonu konulacak
+*-Kaydet butonu tıklandığında anasayfada yeni kişi eklenmiş olarak gelecek
+*-Kişi numaraları eklemek için İnput-phone-number kütüphanesinden uluslararası telefon ve bayraklarının 
+göründüğü input konulacak
+
+       ARAMA VE MESAJ BUTONU
+*-Arama ve mesaj butonu için fontawesome'dan icon alınacak
+*-Arama iconuna tıklandığında yeni sayfada kişi bilgileri gelecek  
+*-Yeni sayfada kişi bilgileri altında ara ve geri butonu konulacak
+*-Mesaj butonu tıklandığında ise yeni sayfada kişi ismi ve mesaj kutusu oluşturulacak
+*-Mesaj sayfasının altında gönder ve geri butonu konulacak 
+*-Mesaj ve arama sayfalarında geri butonuna basıldığında ana sayfaya dönecek
+
+          EDİT
+*-Ana sayfada edit butonuna tıklandıgında yeni sayfa açılacak ve tıklanan kişinin bilgileri ekrana basılacak
+*-Edit sayfasında güncelle ve geri butonu koulacak 
+*-Kişi bilgileri güncellenip güncelle butonuna basıldığında kişi bilgileri ana sayfada yeni haliyle gelecek
+*-Geri butonuna basıldığında ana sayfaya dönecek
+*-Kişi numaraları güncellenirken İnput-phone-number kütüphanesinden uluslararası telefon ve bayraklarının 
+göründüğü telefon inputu konulacak
+
+         SEARCH 
+*-Sağ üst köşeye search butonu konulacak
+*-Search'de arama yapıldığında aranan harfe göre isimler listelenecek
+*-Ekranda sadece aranan isimler görünecek  
